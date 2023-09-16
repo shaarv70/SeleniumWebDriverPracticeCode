@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="grouping">
+	<test name="mytest">
+		<groups>
+			<run>
+				<include name="sanity"/>   <!--this will incluide only test which are having sanity as a group -->
+	           <!--<include name="regression"/> --> <!-- this will include only test which are having regression as a group  -->		
+			    <exclude name="regression"/> <!-- This will include only sanity ones but not regression ones as above sanity is enabled -->
+			</run>
+		</groups>
+		
+		<classes>
+			<class name="Day17TestNG.Grouping"/> <!-- We can add n number of classes here  -->
+		   
+		</classes>
+		
+	</test>
+	
+</suite>

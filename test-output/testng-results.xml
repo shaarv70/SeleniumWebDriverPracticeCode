@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-02T00:58:14 IST" name="Suite" finished-at="2023-05-02T00:58:27 IST" duration-ms="13100">
+    <groups>
+    </groups>
+    <test started-at="2023-05-02T00:58:14 IST" name="Test" finished-at="2023-05-02T00:58:27 IST" duration-ms="13100">
+      <class name="Day17TestNG.ExtentReport">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Day17TestNG.ExtentReport@595b007d]" started-at="2023-05-02T00:58:14 IST" name="Setup" finished-at="2023-05-02T00:58:21 IST" duration-ms="6237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="testLogo()[pri:1, instance:Day17TestNG.ExtentReport@595b007d]" started-at="2023-05-02T00:58:21 IST" name="testLogo" finished-at="2023-05-02T00:58:23 IST" duration-ms="2533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method signature="login()[pri:2, instance:Day17TestNG.ExtentReport@595b007d]" started-at="2023-05-02T00:58:23 IST" name="login" finished-at="2023-05-02T00:58:25 IST" duration-ms="1502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="Logout()[pri:3, instance:Day17TestNG.ExtentReport@595b007d]" started-at="2023-05-02T00:58:25 IST" name="Logout" finished-at="2023-05-02T00:58:27 IST" depends-on-methods="Day17TestNG.ExtentReport.login" duration-ms="2485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Day17TestNG.ExtentReport@595b007d]" started-at="2023-05-02T00:58:27 IST" name="tearDown" finished-at="2023-05-02T00:58:27 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Day17TestNG.ExtentReport -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
