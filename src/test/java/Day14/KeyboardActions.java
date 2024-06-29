@@ -17,7 +17,7 @@ public class KeyboardActions {
 		driver.get("https://text-compare.com/");
 		driver.manage().window().maximize();
 
-		driver.findElement(By.xpath("//textarea[@id='inputText1']")).sendKeys("Hello I am test" );
+		driver.findElement(By.xpath("//textarea[@id='inputText1']")).sendKeys(Keys.SHIFT,"Hello I am test" );
 
 		Actions act=new Actions(driver);
 
